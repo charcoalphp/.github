@@ -3,11 +3,10 @@ Security Policy
 
 ## Reporting a vulnerability
 
-**Please do not write to us publicly, e.g. in the forum, on Discord or in
-a GitHub issue. A public report can give attackers valuable time to exploit
-the issue before it is fixed. By letting us know directly and coordinating
-the disclosure with us, you can help to protect other Charcoal users from
-such attacks.**
+**Please do not write to us publicly (such as a forum) or in a GitHub issue.
+A public report can give attackers valuable time to exploit the issue before it
+is fixed. By letting us know directly and coordinating the disclosure with us,
+you can help to protect other Charcoal users from such attacks.**
 
 If you have spotted a vulnerability in Charcoal, please let us know immediately.
 We appreciate your efforts to responsibly disclose your findings, and will make
