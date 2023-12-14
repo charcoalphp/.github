@@ -9,6 +9,26 @@ the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
 patches and features.
 
+If you are tying to report a possible security vulnerability in Charcoal,
+please see our [security policy](./SECURITY.md) for more information.
+
+Everyone interacting with Charcoal is expected to follow
+the [code of conduct](./CODE_OF_CONDUCT.md).
+
+1. Charcoal utilizes coding conventions (indentation, comments, structures)
+   and adheres to PSR-1, PSR-3, PSR-4, PSR-6, PSR-7, PSR-11, PSR-12, and PSR-16.
+
+2. Charcoal is meant to be lean and fast with very few dependencies.
+   This means that not every feature request will be accepted.
+
+3. Charcoal has a minimum PHP version requirement of PHP 7.4.
+   Pull requests must not require a PHP version greater than PHP 7.4
+   unless the feature is only utilized conditionally and the file can
+   be parsed by PHP 7.4.
+
+4. All pull requests must include unit tests ([PHPUnit]) to ensure
+   the change works as expected and to prevent regressions.
+
 ## Using the issue tracker
 
 The issue tracker is the preferred channel for [bug reports](#bug-reports),
@@ -27,15 +47,15 @@ Good bug reports are extremely helpful — thank you!
 Guidelines for bug reports:
 
 1. **Use the central repository issue search** — 
-    Check if the issue has already been reported.
+   Check if the issue has already been reported.
 
 2. **Check if the issue has been fixed** — 
-    Try to reproduce it using the latest `main` or
-    development branch in the repository.
+   Try to reproduce it using the latest `main`
+   or development branch in the repository.
 
 3. **Isolate the problem** — 
-    Make sure that the code in the repository
-    is _definitely_ responsible for the issue.
+   Make sure that the code in the repository
+   is _definitely_ responsible for the issue.
 
 A good bug report shouldn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report.
@@ -56,12 +76,6 @@ They should remain focused in scope and avoid containing unrelated commits.
 implementing features, refactoring code), otherwise you risk spending a lot of
 time working on something that the developers might not want to merge into the
 project.
-
-Please adhere to the coding conventions used throughout the project
-([PSR-12], indentation, comments, etc.).
-
-Please accompany changes with passing unit tests and complete code coverage
-([PHPUnit]).
 
 Adhering to the following this process is the best way to get your work merged:
 
@@ -114,13 +128,22 @@ Adhering to the following this process is the best way to get your work merged:
 
 ## Attribution
 
-This Contribution Guide is adapted from the
-[Roots Contribution Guide](https://github.com/roots/.github/blob/f33fd27/CONTRIBUTING.md),
-version 2019-03-12.
+This Contribution Guide is adapted from
+[Roots' Contribution Guide](https://github.com/roots/.github/blob/f33fd27/CONTRIBUTING.md)
+(version 2019-03-12) and
+[Guzzle's Contribution Guide](https://github.com/guzzle/guzzle/blob/84779a5/docs/overview.rst)
+(version 2022-07-31).
 
 [gh-create-pull-request]:  https://help.github.com/articles/using-pull-requests/
 [gh-fork-repository]:      http://help.github.com/fork-a-repo/
 [gh-rebase]:               https://help.github.com/articles/interactive-rebase
 [PHPUnit]:                 https://github.com/sebastianbergmann/phpunit/
+[PSR-1]:                   https://www.php-fig.org/psr/psr-1/
+[PSR-3]:                   https://www.php-fig.org/psr/psr-3/
+[PSR-4]:                   https://www.php-fig.org/psr/psr-4/
+[PSR-6]:                   https://www.php-fig.org/psr/psr-6/
+[PSR-7]:                   https://www.php-fig.org/psr/psr-7/
+[PSR-11]:                  https://www.php-fig.org/psr/psr-11/
 [PSR-12]:                  https://www.php-fig.org/psr/psr-12/
+[PSR-16]:                  https://www.php-fig.org/psr/psr-16/
 [tbaggery.com-2008-04-19]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
